@@ -9,11 +9,11 @@ Technologie utilisée : React
 ### L’API  
 Technologie utilisée : Express  
 ### La Base de données
-Pour le TP la BDD sera uniquement un tableau dans le front  
+Pour le TP la BDD sera uniquement un tableau dans le back  
 ## Fonctionnement souhaité CI/CD
 Sur notre Github nous avons :  
-- Une branche main 
-- Une branche develop  
+- Une branche main qui represente l'environement de production
+- Une branche develop qui represente l'environement de developement
 
 Notre CI-CD sur le front et le back effectue les actions suivantes :
 - Lors d’un push sur la main et la develop :
@@ -24,7 +24,6 @@ Notre CI-CD sur le front et le back effectue les actions suivantes :
 - Lors d'un push sur une autre branche que la main ou la develop :
     - Récupère le code de notre repositorie
     - Configure Buildx
-    - Connexion au registre de conteneurs GitHub
     - Construction de l'image Docker
 
 ## Portainer
