@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  back:
+    build: ghcr.io/event-wishes-isen-dev-ops/event-wishes-back:latest
+
+  front:
+    build: ghcr.io/event-wishes-isen-dev-ops/event-wishes-front:latest
