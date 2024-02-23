@@ -2,11 +2,11 @@ version: '3'
 
 services:
   back:
-    image: ghcr.io/event-wishes-isen-dev-ops/event-wishes-back:latest
+    image: ghcr.io/event-wishes-isen-dev-ops/event-wishes-back:main-latest
     ports:
       - 5555:3000
 
   front:
-    image: ghcr.io/event-wishes-isen-dev-ops/event-wishes-front:latest
+    image: ghcr.io/event-wishes-isen-dev-ops/event-wishes-front:main-latest
     ports:
       - 3000:3000
